@@ -1,0 +1,16 @@
+So to better describe the above quote, I've added a screen shot here (image below with the magenta/fuchsia/pinkish circles), to provide a "here is where it is on the Mac".....of what the text above describes..
+
+https://stackoverflow.com/questions/64017267/dotnet-dev-certs-certificate-not-trusted/66888581#66888581
+So my steps were:
+
+dotnet dev-certs https --clean
+
+dotnet dev-certs https --check
+
+(DO THE MANUAL keychain-old-localhost removal NOW (image below) (before running the below terminal commands)
+
+dotnet dev-certs https --check
+
+dotnet dev-certs https 
+
+dotnet dev-certs https --trust
